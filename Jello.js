@@ -31,7 +31,9 @@ client.on('messageCreate', (message) => {
         }
     }
 
-
+    if (message.content.toLowerCase() === "წავიკითხე") {
+        message.channel.send("shut up nigga")
+    }
 });
 
 // TODO: dont kms
