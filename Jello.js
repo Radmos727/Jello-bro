@@ -31,8 +31,8 @@ client.on('messageCreate', (message) => {
         }
     }
 
-    if (message.content.toLowerCase() === "წავიკითხე") {
-        message.channel.send("shut up nigga")
+    if (message.content.includes("წავიკითხე")) {
+        message.channel.send("dis nigga so unfunny bro")
     }
 });
 
