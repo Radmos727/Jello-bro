@@ -35,14 +35,4 @@ client.on('messageCreate', (message) => {
         message.channel.send("dis nigga so unfunny bro")
     }
 });
-
-
-
-// TODO: dont kms
-
-// lore and uhhhh retard lisekuu idk
-
-
-
-
 client.login(process.env.DISCORD_TOKEN);
